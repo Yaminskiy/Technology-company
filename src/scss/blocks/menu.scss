@@ -1,0 +1,27 @@
+.menu{
+    ul{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        li{
+            list-style-type: none;
+        }
+    }
+
+    a{
+        font-size: 12px;
+        line-height: 23px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: $white;
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+        letter-spacing: 0.96px;
+        margin: 0 3px;
+
+        &:hover{
+            border-bottom-color: $white;
+        }
+    }
+}

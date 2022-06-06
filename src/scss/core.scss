@@ -5,13 +5,23 @@
 @import 'variables';
 @import 'mixins';
 
+@import 'blocks/top';
+@import 'blocks/menu';
+@import 'blocks/content';
+
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    margin: 0;
+    background: url('../img/background.png') center no-repeat #2a2353;
+    background-size: cover;
 }
 
 .container {
     @include min-max(320px, 100%, 0);
+    background: url('../img/vector.png') center no-repeat;
+    background-size: cover;
 }
 
 .wrap {
